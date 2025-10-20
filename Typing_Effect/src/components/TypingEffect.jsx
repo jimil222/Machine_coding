@@ -7,18 +7,20 @@ const TypingEffect = ({text,delay}) => {
     const velocityRef = useRef({speed:1,endIndex:0})
 
     useEffect(() => {
-        // Core logic for implementing the typing effect
+      // Core logic for implementing the typing effect
+      let direction = 1;
       const intervals = setInterval(()=>{
         // if forward typing is complete setting -1 for backward
         if(velocityRef.current.endIndex===text.length){
-            velocityRef.current.speed=-1;
+            // velocityRef.current.speed=-1;
+            direction = -1
         }
         // creating a cycle for back and forward
         else if(velocityRef.current.endIndex===0){
-            velocityRef.current.speed=1;
+            direction =1
         }
         // Logic for forward typing 
-        velocityRef.current.endIndex+=velocityRef.current.speed;
+        velocityRef.current.endIndex+=direction;
         setTypedText(text.slice(0,velocityRef.current.endIndex))
       },delay)
     
