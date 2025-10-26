@@ -1,0 +1,28 @@
+{
+  "faqs": [
+    {
+      "question": "What is backend development?",
+      "answer": "Backend development focuses on the server-side of a website or application. It handles the logic, database interactions, user authentication, and application business logic that users don't directly interact with in the browser."
+    },
+    {
+      "question": "What are some popular languages used in backend development?",
+      "answer": "Popular backend languages include **Python**, **Java**, **JavaScript** (Node.js), **Ruby**, **PHP**, and **Go** (Golang)."
+    },
+    {
+      "question": "What is an API?",
+      "answer": "An **API (Application Programming Interface)** is a set of rules and protocols that allows different software applications to communicate with each other. In web development, backend APIs are used to expose data and functionality to the frontend."
+    },
+    {
+      "question": "What is a database, and why is it needed?",
+      "answer": "A **database** is an organized collection of structured information, or data, typically stored electronically. It's needed in backend development to persist (store) data such as user accounts, product information, and application settings."
+    },
+    {
+      "question": "What are the common types of backend frameworks?",
+      "answer": "Common backend frameworks include **Express.js** (for Node.js), **Django** and **Flask** (for Python), **Ruby on Rails** (for Ruby), and **Spring** (for Java). These provide structure and tools to speed up development."
+    },
+    {
+      "question": "What is the difference between SQL and NoSQL databases?",
+      "answer": "**SQL (Relational) databases** use structured tables and SQL for defining and manipulating data. **NoSQL (Non-relational) databases** use flexible document, key-value, or graph models, offering more flexibility for certain types of data."
+    }
+  ]
+}
